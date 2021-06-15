@@ -29,15 +29,7 @@ module.exports = {
         test: /\.(jsx|js)$/,
         include: path.resolve(__dirname, 'src'), // ./src
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: [
-              ['@babel/preset-env', { "targets": "defaults" }],
-              '@babel/preset-react'
-            ]
-          }
-        }
+        loader: 'babel-loader',
       },
 
       // Sass -- Compiler for .scss and .sass

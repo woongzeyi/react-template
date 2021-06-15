@@ -2,7 +2,7 @@
   "name": "ExampleReactApp",
   "version": "1.0.0",
   "description": "A template for everyone to use",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --mode production"

@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
 
   // Info
-  entry: path.resolve(__dirname, 'src', 'index.js'), // ./src/index.js
+  entry: path.resolve(__dirname, 'src', 'index.jsx'), // ./src/index.js
   output: {
     path: path.resolve(__dirname, 'dist'), // ./dist
     filename: 'main.js',

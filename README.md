@@ -1,4 +1,4 @@
-# Example React App
+# React App Template
 This is a public template for anyone to use. 
 
 ## Dependencies
